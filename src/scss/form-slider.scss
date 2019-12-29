@@ -1,0 +1,36 @@
+.formSlider {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.formSlider .formSlider-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.formSlider-arrow {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.formSlider-hide-item {
+  display: none !important;
+}
+
+.formSlider-show-item {
+  display: flex !important;
+}
+
+.formSlider-disable-arrow {
+  color: #eee;
+  cursor: not-allowed;
+}

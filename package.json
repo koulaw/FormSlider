@@ -1,0 +1,16 @@
+{
+  "name": "form-slider",
+  "version": "1.0.0",
+  "description": "Transform a basic form into a slider",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Rémi latrille",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.24.0"
+  }
+}
