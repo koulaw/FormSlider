@@ -1,6 +1,3 @@
-import FormSliderValidator from './FormSliderValidator';
-
-
 /**
  * Transform a standard form in a slider
  */
@@ -28,8 +25,6 @@ export default class formSlider {
       (options && options.disableNavClass) || 'formSlider-disable-arrow';
 
     this.currentSlideIndex = 0;
-
-    this.currentSlide = this.formSlides[this.currentSlideIndex];
 
     this.init();
   }
