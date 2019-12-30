@@ -52,9 +52,6 @@ export default class formSlider {
       // If this is the first slide
       if (this.currentSlideIndex === 0) {
         e.preventDefault();
-      } else if(!this.isValid(currentSlide)) {
-        e.preventDefault();
-        console.error('Veuillez remplir les champs du formulaire');
       } else {
         this.hideSlide(currentSlide);
         this.currentSlideIndex -= 1;
