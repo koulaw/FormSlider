@@ -18,10 +18,14 @@ import FormSlider from './FormSlider';
 
 Instantiate the class with 
 ```javascript
-new FormSlider(options);
+new FormSlider();
 ```
 
-The options parameter must be an object. He are the default options.
+You can pass an options object as parameter when you instantiate FromSlider(). 
+```javascript
+new FormSlider(options);
+```
+He are the default options.
 ```javascript
 const options = {
     /**
@@ -53,10 +57,15 @@ const options = {
      * @param {string} The css class that disable the nav links 
     */
     disableNavClass: 'formSlider-disable-arrow',
+
+    /**
+     * @param {string} The css class that disable the nav links 
+    */
+    errorsClass: 'formSlider-error',
 }
 ```
 
-The default HTML structure is
+The default HTML structure looks like
 
 ```html
     <form action="" class="formSlider">

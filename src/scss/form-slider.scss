@@ -34,3 +34,34 @@
   color: #eee;
   cursor: not-allowed;
 }
+
+.formSlider-error {
+  position:absolute;
+  top:1rem;
+  right:1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding:1rem 2rem;
+  border-left:3px solid rgba(255,0,0,1);
+  background:rgba(0, 0, 0, 0.05);
+  color:rgba(255, 0, 0, 0.8);
+
+  font-size:.8rem;
+  text-align: left;
+}
+
+.formSlider-error ul {
+  list-style: none;
+}
+
+.formSlider-error span {
+  cursor:pointer;
+  display:block;
+  padding:1rem;
+  margin-left:2rem;
+  color:rgba(255, 0, 0, 0.8);
+  font-weight: bold;
+}
